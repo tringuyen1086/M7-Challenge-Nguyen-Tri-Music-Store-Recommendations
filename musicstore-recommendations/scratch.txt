@@ -1,0 +1,19 @@
+SPRING_DATASOURCE_URL           	
+SPRING_DATASOURCE_USERNAME		
+SPRING_DATASOURCE_PASSWORD		
+
+
+
+Heroku Path
+
+https://music-store-recommend-2022.herokuapp.com/albumRecommendation
+https://music-store-recommend-2022.herokuapp.com/albumRecommendation/1
+
+https://music-store-recommend-2022.herokuapp.com/artistRecommendation
+https://music-store-recommend-2022.herokuapp.com/artistRecommendation/1
+
+https://music-store-recommend-2022.herokuapp.com/labelRecommendation
+https://music-store-recommend-2022.herokuapp.com/labelRecommendation/1
+
+https://music-store-recommend-2022.herokuapp.com/trackRecommendation/
+https://music-store-recommend-2022.herokuapp.com/trackRecommendation/1
