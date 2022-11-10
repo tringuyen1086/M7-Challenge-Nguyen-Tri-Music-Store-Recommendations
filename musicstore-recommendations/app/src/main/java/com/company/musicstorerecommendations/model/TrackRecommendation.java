@@ -4,6 +4,7 @@ package com.company.musicstorerecommendations.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 @Entity
@@ -15,10 +16,16 @@ public class TrackRecommendation {
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     @Column(name = "track_recommendation_id")
     private Integer id;
+
+    @NotNull
     @Column(name="track_id")
     private Integer trackId;
+
+    @NotNull
     @Column(name="user_id")
     private Integer userId;
+
+    @NotNull
     private boolean liked;
 
     public TrackRecommendation(){

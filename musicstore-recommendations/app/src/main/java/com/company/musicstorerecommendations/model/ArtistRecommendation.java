@@ -3,6 +3,7 @@ package com.company.musicstorerecommendations.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 @Entity
@@ -15,11 +16,15 @@ public class ArtistRecommendation {
     @Column(name = "artist_recommendation_id")
     private Integer id;
 
+    @NotNull
     @Column(name="artist_id")
     private Integer artistId;
 
+    @NotNull
     @Column(name="user_id")
     private Integer userId;
+
+    @NotNull
     private boolean liked;
 
     public ArtistRecommendation(){
